@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="minvalid-css/style.css" />
+    <title>Document</title>
+  </head>
+  <body class="body">
+    <header class="header"></header>
+    <div class="container">
+      <div class="form-wrapper">
+        <form id="form-1" class="form">
+          <label class="form__section name">
+            <span class="form__descr">Enter your name</span>
+            <input
+              id="name"
+              class="form__input"
+              type="text"
+              placeholder="jon"
+            />
+          </label>
+          <label class="form__section surname">
+            <span class="form__descr">Enter your surname</span>
+            <input
+              id="surname"
+              class="form__input"
+              type="text"
+              placeholder="snow"
+            />
+          </label>
+          <label class="form__section email">
+            <span class="form__descr">Enter your e-mail</span>
+            <input
+              id="email"
+              class="form__input email"
+              type="email"
+              placeholder="blob@.com"
+            />
+          </label>
+          <label class="form__section password">
+            <span class="form__descr">Enter your password</span>
+            <input
+              id="password"
+              class="form__input password"
+              type="email"
+              placeholder="jon"
+            />
+          </label>
+          <div class="error-block"></div>
+          <div class="form__section">
+            <button class="form__button">submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="minvalid-js/minivalid.js"></script>
+  <script src="minvalid-js/index.js"></script>
+</html>
